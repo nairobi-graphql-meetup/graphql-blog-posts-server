@@ -1,0 +1,23 @@
+{
+  "name": "graphql-blog-posts-server",
+  "version": "1.0.0",
+  "description": "This is a graphql server that stores blog posts in memory; no database hence the data in not persistent. The idea is to have a good grasp of how graphql works for it's data agnostic.",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd api; npm i; cd ..; cd client; npm i",
+    "start": "concurrently \"cd api; npm start;\" \"cd client; npm start;\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairobi-graphql-meetup/graphql-blog-posts-server.git"
+  },
+  "author": "Joe Ng'ethe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairobi-graphql-meetup/graphql-blog-posts-server/issues"
+  },
+  "homepage": "https://github.com/nairobi-graphql-meetup/graphql-blog-posts-server#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
