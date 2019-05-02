@@ -1,4 +1,7 @@
-// create s server with typeDefs and resolvers
-// create a Root Query type
-// create a Post Query type
-// create a Post Mutation
+/**
+ * @todo
+ * - Build a graphql server
+ * - define our typeDefs and resolvers
+ * - create an API to READ, DELETE, UPDATE and PUT data
+ * - We'll assume we are building an API for a blog post application
+ * */
